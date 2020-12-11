@@ -1,0 +1,19 @@
+This file (sample1.log) contains formatted and unformatted text.
+All unformatted text goes to the top of the merged file.
+Each line is formatted as <date>-<day>-<time>-<timezone>|<name>_<id>|<text>
+  Date is specified as YYYYMMDD
+  Day is a 3-letter specifying the day of the week
+  Time is specified as HHMMSS (24 hour clock)
+  Timezone specifies the time zone
+  Name indicates how the user wants to be identified
+  Id contains the four rightmost characters of the user's IPFS node ID
+
+20200907-Mon-181432-MST|Jill_pLnJ|This is the second message.
+20200904-Fri-192827-MST|Jack_n7j9|This is the first message.
+20200908-Tue-160046-MST|Jill_YtaS|Same Jill, different node.
+20201205-Sat-060550-UTC|Jack_x85H|Same Jack, hailing from a different node on a different time zone.
+20201205-Sat-072614-MST|Jack_x85H|Jack is back to the usual time zone, but still on a different node.
+20201206-Sun-092603-MST|Jack_KhCz|Yet another node for Jack.
+20201205-Sat-111859-MST|Rick_GW6R|Here's Rick using another node.
+20201120-Fri-040530-MST|Rick_JwUk|Here's Rick.
+20201107-Sat-091339-MST|Rick_JwUk|This is a duplicated message. You should only find one on the consolidated file.
